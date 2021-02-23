@@ -1,0 +1,25 @@
+{
+  "name": "square-2-0",
+  "version": "1.0.1",
+  "description": "Square integration with Zapier",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive -t 10000"
+  },
+  "engines": {
+    "node": ">=v12",
+    "npm": ">=5.6.0"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "zapier-platform-core": "9.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "should": "^13.2.0"
+  },
+  "private": true,
+  "zapier": {
+    "convertedByCLIVersion": "10.0.0"
+  }
+}
